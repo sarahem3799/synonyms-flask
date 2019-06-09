@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <style>
+    body {text-align:center;}
+    </style>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <form name="data" action="." method="post">
+      <br><br><br>
+    	<label> Enter text </label>&nbsp
+    	<input type="text" name="in" value={{request.form.in}}>&nbsp
+    	<button type="submit"> Submit </button>
+      <br><br>
+      <label> Synonym </label>
+      {{syn}}
+    </form>
+  </body>
+</html>
